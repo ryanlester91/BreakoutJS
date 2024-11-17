@@ -117,7 +117,9 @@ function checkForCollisions(){
     //check for wall collisions
     if (
         ballCurrentPosition[0] >= (boardWidth - ballDiameter) ||
-        ballCurrentPosition[1] >= (boardHeight - ballDiameter)
+        ballCurrentPosition[1] >= (boardHeight - ballDiameter) ||
+        ballCurrentPosition[0]<= 0 ||
+        ballCurrentPosition[1] <= 0
     ) {
         changeDirection()
     }
