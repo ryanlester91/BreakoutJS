@@ -118,7 +118,7 @@ function moveBall() {
 }
 
 //timerId = setInterval(moveBall, 30)
-timerId = setInterval(moveBall, 25)
+timerId = setInterval(moveBall, 20)
 
 //check for collisions
 function checkForCollisions(){
